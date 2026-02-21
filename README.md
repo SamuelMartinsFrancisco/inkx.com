@@ -1,2 +1,2 @@
 # inkx.com
-Landing page for InkX stationery
+InkX stationery landing page
