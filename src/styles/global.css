@@ -2,12 +2,93 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;;
 }
 
 html {
   font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
 }
 
 body section {
-  min-height: 80vh;
+  min-height: 95vh;
+}
+
+a {
+  text-decoration: none;;
+}
+
+.flex {
+  display: flex;
+}
+
+.vertical-center {
+  align-items: center;
+}
+
+.dark {
+  background-color: var(--dark-primary);
+  color: var(--light-primary);
+}
+
+.dark a {
+  color: var(--light-primary);
+}
+
+.logo {
+  width: 4em
+}
+
+#home header {
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+  background-color: var(--black);
+  border-bottom: 2px solid var(--dark-secondary);
+}
+
+#home h1 {
+  font-size: 1.4em;
+}
+
+.print-shop-title {
+  font-family: monospace;
+  gap: 3px;
+  flex-direction: column;
+}
+
+#home nav a {
+  margin: 0 6px;
+  padding: 3px 5px;
+  border-radius: 2px;
+}
+
+#home nav a:hover {
+  background-color: var(--dark-primary);
+}
+
+#home nav a:last-child {
+  background-color: var(--light-primary);
+  color: var(--dark-primary);
+}
+
+#home h2 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.7em;
+  padding: 0.5em 0;
+  background-color: var(--dark-secondary);
+  margin: 30px 0;
+  border-bottom: 4px solid var(--black);
+  border-radius: 5px;
+}
+
+.content {
+  margin: 1em 10px;
+  position: relative;
 }
